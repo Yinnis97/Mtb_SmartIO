@@ -738,7 +738,7 @@
                         </Aliases>
                     </Block>
                     <Parameters>
-                        <Param id="DriveModes" value="CY_GPIO_DM_STRONG"/>
+                        <Param id="DriveModes" value="CY_GPIO_DM_HIGHZ"/>
                         <Param id="driveStrength" value="CY_GPIO_DRIVE_1_2"/>
                         <Param id="driveStrengthTrim" value="CY_GPIO_DRIVE_STRENGTH_DEFAULT"/>
                         <Param id="inFlash" value="true"/>
@@ -864,7 +864,7 @@
                         <Param id="lut2Tr0" value="CY_SMARTIO_LUTTR_INVALID"/>
                         <Param id="lut2Tr1" value="CY_SMARTIO_LUTTR_INVALID"/>
                         <Param id="lut2Tr2" value="CY_SMARTIO_LUTTR_INVALID"/>
-                        <Param id="lut3Map" value="15"/>
+                        <Param id="lut3Map" value="240"/>
                         <Param id="lut3Notes" value=""/>
                         <Param id="lut3Opcode" value="CY_SMARTIO_LUTOPC_COMB"/>
                         <Param id="lut3Tr0" value="CY_SMARTIO_LUTTR_LUT3_OUT"/>

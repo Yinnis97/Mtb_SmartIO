@@ -527,3 +527,17 @@
 254	362	7858812046042419	build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf	f8f56377234a741b
 18	176	7858816144215627	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/local/main.o	174caf57b7875c2a
 176	295	7858816145787706	build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf	f8f56377234a741b
+25	168	7858828703418692	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o	eb09c56b2d78bb66
+20	169	7858828703368686	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o	81adfbd3d7959557
+23	171	7858828703398685	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o	4a95955a34226c5f
+27	197	7858828703438690	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/local/main.o	174caf57b7875c2a
+29	249	7858828703460133	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/libraries_shared/udb-sdio-whd/SDIO_HOST.o	84d8cc5eda7e2169
+249	361	7858828705658052	build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf	f8f56377234a741b
+19	171	7858831030903570	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o	81adfbd3d7959557
+22	179	7858831030927408	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o	4a95955a34226c5f
+24	185	7858831030947414	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o	eb09c56b2d78bb66
+26	203	7858831030977411	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/local/main.o	174caf57b7875c2a
+29	259	7858831031002472	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/libraries_shared/udb-sdio-whd/SDIO_HOST.o	84d8cc5eda7e2169
+259	369	7858831033295041	build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf	f8f56377234a741b
+19	155	7858833574293972	C:/_Yinnis/MTB/SmartIO/Smart-IO/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o	4a95955a34226c5f
+155	263	7858833575659885	build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf	f8f56377234a741b

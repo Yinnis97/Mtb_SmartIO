@@ -26,7 +26,6 @@ int main(void)
 
     for (;;)
     {
-		GPIO_PRT9->OUT ^= 0x02;
 		if(GPIO_PRT9->IN & 0x08)
 		{
 			Cy_GPIO_Set(CYBSP_USER_LED_PORT, CYBSP_USER_LED_PIN);
