@@ -8,6 +8,8 @@
 #include "cybsp.h"
 #include "cy_retarget_io.h"
 
+// LDFLAGS = -Wl,--no-warn-rwx-segments in Makefile to turn off register warning
+
 int main(void)
 {
     cybsp_init();
@@ -26,16 +28,16 @@ int main(void)
 
     for (;;)
     {
-		if(GPIO_PRT9->IN & 0x08)
+		if(GPIO_PRT9->IN & 0x08) // Check if Pin 9_3 is set (output from smart-io)
 		{
-			Cy_GPIO_Set(CYBSP_USER_LED_PORT, CYBSP_USER_LED_PIN);
-			printf("ON\r\n");
+			GPIO_PRT1->OUT = GPIO_PRT1->OUT | 0x20; // Set pin 1_5 (actually turns off since it's active low)
+			printf("OFF\r\n");
 		}
 		else 
 		{
-			Cy_GPIO_Clr(CYBSP_USER_LED_PORT, CYBSP_USER_LED_PIN);
-			printf("OFF\r\n");
+			GPIO_PRT1->OUT = GPIO_PRT1->OUT & ~0x20; // Clear pin 1_5 (actually turns on since it's active low)
+			printf("ON\r\n");
 		}
-		cyhal_system_delay_ms(2000);
+		cyhal_system_delay_ms(1000);
     }
 }

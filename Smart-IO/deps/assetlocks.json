@@ -1,5 +1,9 @@
 [
     {
+        "asset-name": "audio-codec-ak4954a",
+        "locked-commit": "release-v1.0.2"
+    },
+    {
         "asset-name": "bt-fw-mur-cyw4343w",
         "locked-commit": "release-v1.0.0"
     },
@@ -24,6 +28,10 @@
         "locked-commit": "release-v4.33.0"
     },
     {
+        "asset-name": "display-tft-st7789v",
+        "locked-commit": "release-v1.0.1"
+    },
+    {
         "asset-name": "mtb-hal-cat1",
         "locked-commit": "release-v2.7.4"
     },
@@ -34,6 +42,14 @@
     {
         "asset-name": "recipe-make-cat1a",
         "locked-commit": "release-v2.6.0"
+    },
+    {
+        "asset-name": "sensor-light",
+        "locked-commit": "release-v1.1.0"
+    },
+    {
+        "asset-name": "sensor-motion-bmi160",
+        "locked-commit": "release-v1.1.2"
     },
     {
         "asset-name": "udb-sdio-whd",

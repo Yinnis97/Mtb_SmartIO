@@ -85,7 +85,7 @@ VERBOSE=
 # ... then code in directories named COMPONENT_foo and COMPONENT_bar will be
 # added to the build
 #
-COMPONENTS=
+COMPONENTS=EMWIN_NOSNTS
 
 # Like COMPONENTS, but disable optional code that was enabled by default.
 DISABLE_COMPONENTS=
@@ -125,7 +125,7 @@ CXXFLAGS=
 ASFLAGS=
 
 # Additional / custom linker flags.
-LDFLAGS=
+LDFLAGS=-Wl,--no-warn-rwx-segments
 
 # Additional / custom libraries to link in to the application.
 LDLIBS=
